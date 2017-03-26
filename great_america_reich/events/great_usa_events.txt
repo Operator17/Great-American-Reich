@@ -7,13 +7,12 @@ country_event = {
 	picture = GFX_report_event_ast_parliament_house
 
 	trigger = {
-		ROOT = {
+		USA = {
 			has_government = fascist
-      original_tag = "USA"
 		}
 	}
 
-  mean_time_to_happen = {  months = 3 }
+  mean_time_to_happen = {  days = 3 }
 
 	option = {
 		name = FUS.1.a
