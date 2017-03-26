@@ -1,6 +1,6 @@
 ideas = {
   political_advisor = {
-    erich_raeder = {
+    USA_erich_raeder = {
 
       allowed = {
         original_tag = "USA"
