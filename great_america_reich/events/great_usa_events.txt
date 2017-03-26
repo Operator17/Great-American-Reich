@@ -28,6 +28,7 @@ country_event = {
     	traits = {
     	}
     }
+    set_party_name = { ideology = nazism long_name = FUS_NSP name = FUS_NSP }
 
     ai_chance = {
       factor = 75
