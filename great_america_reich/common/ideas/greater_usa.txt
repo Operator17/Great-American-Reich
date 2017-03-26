@@ -1,0 +1,20 @@
+ideas = {
+  political_advisor = {
+    erich_raeder = {
+
+      allowed = {
+        original_tag = "USA"
+      }
+
+      available = {
+        has_government = fascism
+        }
+
+      traits = { prince_of_terror }
+
+      ai_will_do = {
+        factor = 0.1
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+﻿- total US focus tree rework
+- replacement of the Silver Legion per a focus by a new party (and includes new leader, new flag, new country
+name)
+- addition of new events (for completed resarches, city annexion, internal events, etc...)
