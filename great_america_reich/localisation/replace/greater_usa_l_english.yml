@@ -1,10 +1,10 @@
 ﻿l_english:
 
-USA_fascism:0 "Great American Reich"
-USA_fascism_DEF:0 "The Great American Reich"
+FUS_fascism:0 "Great American Reich"
+FUS_fascism_DEF:0 "The Great American Reich"
 
-USA_fascism_party:0 "US NSP"
-USA_fascism_party_long:0 "National Socialist Party of America"
+FUS_NSP:0 "US NSP"
+FUS_NSP_long:0 "National Socialist Party of America"
 
 USA_erich_raeder:0 "Erich Raeder"
 
