@@ -4,5 +4,8 @@ spriteTypes = {
 		name = "GFX_idea_USA_erich_raeder"
 		texturefile = "gfx/interface/ideas/idea_erich_raeder.dds"
 	}
-
+	spriteType = {
+		name = "GFX_white_house_decision"
+		texturefile = "gfx/event_pictures/white_house_decision.dds"
+	}
 }
