@@ -1,51 +1,52 @@
 ﻿add_namespace = FUS
 
 country_event = {
-	id = FUS.1
-	title = FUS.1.t
-	desc = FUS.1.d
-	picture = GFX_white_house_decision
+   id = FUS.1
+   title = FUS.1.t
+   desc = FUS.1.d
+   picture = GFX_white_house_decision
+   fire_only_once = yes
 
-	trigger = {
-		USA = {
-			has_government = fascism
-		}
-	}
+   trigger = {
+       tag = USA
+       USA = {
+           has_government = fascism
+       }
+   }
 
   mean_time_to_happen = {  days = 3 }
 
-	option = {
-		name = FUS.1.a
+   option = {
+       name = FUS.1.a
 
     set_cosmetic_tag = FUS
     custom_effect_tooltip = FUS.1.a.tt
     create_country_leader = {
-    	name = "John Smith"
-    	desc = "POLITICS_JOHN_SMITH_DESC"
-    	picture = "Portrait_USA_John_Smith.dds"
-    	expire = "1965.1.1"
-    	ideology = nazism
-    	traits = {
-    	}
+       name = "John Smith"
+       desc = "POLITICS_JOHN_SMITH_DESC"
+       picture = "Portrait_USA_John_Smith.dds"
+       expire = "1965.1.1"
+       ideology = nazism
+       traits = {
+       }
     }
     set_party_name = {
      ideology = fascism
-     long_name = FUS_NSP
+     long_name = FUS_NSP_long
      name = FUS_NSP }
 
     ai_chance = {
       factor = 75
     }
-	}
+   }
 
   option = {
-		name = FUS.1.b
+       name = FUS.1.b
 
     custom_effect_tooltip = FUS.1.b.tt
 
-		ai_chance = {
-			factor = 25
-		}
-	}
-
+       ai_chance = {
+           factor = 25
+       }
+   }
 }
